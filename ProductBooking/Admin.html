@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <link rel="stylesheet" href="Admin.css">
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	 <script src="Admin.js"></script>
+</head>
+<body>
+	<nav>
+		<a href="#" id="AirClick">Air</a>
+		<a href="#" id="ActivityClick">Activity</a>
+		<a href="#" id="CarClick">Car</a>
+		<a href="#" id="HotelClick">Hotel</a>
+	</nav>
+	<div id="Air"><span>Name :</span><input id="AirName" class="AdminClass" name="AdminLog" type="text" placeholder="Name" /><br><span>Price :</span><input id="Airprice" class="AdminClass" name="AdminLogIn" type="text" placeholder="price"/><br><span>Booked:</span><input id="IsBookedAir" class="AdminClass" name="AdminLog" type="text" placeholder="Is Booked :0/1"/><br><span>Saved:</span><input id="IsSavedAir" class="AdminClass" name="AdminLogIn" type="text" placeholder="Is Saved: 0/1"/><br><span>Departure:</span><input id="Departure" class="AdminClass" name="AdminLog" type="text" placeholder="Departure Time:00:00 PM/AM"/><br><span>Arrival:</span><input id="Arrival" class="AdminClass" name="AdminLogIn" type="text" placeholder="Arrival Time:00:00 PM/AM"/><br><input type="submit" value="Submit" OnClick="addAirProduct()"></div>
+	<div id="Activity"><span>Name :</span><input id="ActName" class="AdminClass" name="AdminLog" type="text" placeholder="Name" /><br><span>Price :</span><input id="Actprice" class="AdminClass" name="AdminLogIn" type="text" placeholder="price"/><br><span>Booked:</span><input id="IsBookedAct" class="AdminClass" name="AdminLog" type="text" placeholder="Is Booked :0/1"/><br><span>Saved:</span><input id="IsSavedAct" class="AdminClass" name="AdminLogIn" type="text" placeholder="Is Saved: 0/1"/><br><span>Start Time:</span><input id="StartTimeAct" class="AdminClass" name="AdminLog" type="text" placeholder="Start Time:00:00 PM/AM"/><br><span>End Time:</span><input id="EndTimeAct" class="AdminClass" name="AdminLogIn" type="text" placeholder="End Time:00:00 PM/AM"/><br><input type="submit" value="Submit"  OnClick="addActivityProduct()"></div>
+	<div id="Car"><span>Name :</span><input id="CarName" class="AdminClass" name="AdminLog" type="text" placeholder="Name" /><br><span>Price :</span><input id="Carprice" class="AdminClass" name="AdminLogIn" type="text" placeholder="price"/><br><span>Booked:</span><input id="IsBookedCar" class="AdminClass" name="AdminLog" type="text" placeholder="Is Booked :0/1"/><br><span>Saved:</span><input id="IsSavedCar" class="AdminClass" name="AdminLogIn" type="text" placeholder="Is Saved: 0/1"/><br><span>Start Time:</span><input id="StartTimeCar" class="AdminClass" name="AdminLog" type="text" placeholder="Start Time:00:00 PM/AM"/><br><span>End Time:</span><input id="EndTimeCar" class="AdminClass" name="AdminLogIn" type="text" placeholder="End Time:00:00 PM/AM"/><br><input type="submit" value="Submit"  OnClick="addCarProduct()"></div>
+	<div id="Hotel"><span>Name :</span><input id="HotelName" class="AdminClass" name="AdminLog" type="text" placeholder="Name" /><br><span>Price :</span><input id="Hotelprice" class="AdminClass" name="AdminLogIn" type="text" placeholder="price"/><br><span>Booked:</span><input id="IsBookedHotel" class="AdminClass" name="AdminLog" type="text" placeholder="Is Booked :0/1"/><br><span>Saved:</span><input id="IsSavedHotel" class="AdminClass" name="AdminLogIn" type="text" placeholder="Is Saved: 0/1"/><br><span>Room Type:</span><input id="RoomType" class="AdminClass" name="AdminLogIn" type="text" placeholder="Room Type"/><br><span>Rating:</span><input id="Rating" class="AdminClass" name="AdminLog" type="text" placeholder="Rating : 3.8"/><br><span>CheckIn Time:</span><input id="CheckIn" class="AdminClass" name="AdminLog" type="text" placeholder="CheckIn Time:00:00 PM/AM"/><br><span>CheckOut Time:</span><input id="CheckOut" class="AdminClass" name="AdminLogIn" type="text" placeholder="CheckOut Time:00:00 PM/AM"/><br><input type="submit" value="Submit"  OnClick="addHotelProduct()"></div>
+</body>
+</html>
